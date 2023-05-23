@@ -20,7 +20,7 @@ public class Circle extends JFrame {
         JPanel panel = new JPanel(new BorderLayout());
         getContentPane().add(panel);
 
-        // Create a top panel for the title
+        // Create a top panel for the titels
         JPanel topPanel = new JPanel();
         topPanel.setBackground(Color.WHITE);
         panel.add(topPanel, BorderLayout.NORTH);
