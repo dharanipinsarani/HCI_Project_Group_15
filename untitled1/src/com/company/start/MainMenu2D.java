@@ -12,7 +12,7 @@ public class MainMenu2D extends JFrame {
         super("Shapes Learning App - Main Menu");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Create and set the layout for the main menu page
+        // Create and set the layout for the main menu pages
         JPanel panel = new JPanel(new BorderLayout());
         getContentPane().add(panel);
 
