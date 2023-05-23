@@ -19,7 +19,7 @@ public class CubeGenerator extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Create a container panel for input and top panels
+        // Create a Container panel for input and top panels
         JPanel containerPanel = new JPanel();
         containerPanel.setLayout(new BoxLayout(containerPanel, BoxLayout.Y_AXIS));
 
@@ -36,7 +36,7 @@ public class CubeGenerator extends JFrame {
         backButton.addActionListener(new BackButtonActionListener());
         topPanel.add(backButton, BorderLayout.WEST);
 
-        // Add the shape categories panel on top
+        /// Add the shape categories panel on top
         JPanel topicPanel = new JPanel();
         topicPanel.setBackground(Color.WHITE);
         topicPanel.setPreferredSize(new Dimension(getWidth(), 150));
@@ -51,7 +51,7 @@ public class CubeGenerator extends JFrame {
 
         containerPanel.add(topPanel);
 
-        // Create input panel
+        // Create input panels
         JPanel inputPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         JLabel sideLengthLabel = new JLabel("Side Length (mm):");
         sideLengthLabel.setFont(new Font("Segoe UI Black", Font.BOLD, 50));
@@ -76,7 +76,7 @@ public class CubeGenerator extends JFrame {
 
         add(containerPanel, BorderLayout.NORTH);
 
-        // Create drawing panel
+        // Create drawing panels
         drawingPanel = new JPanel() {
             @Override
             protected void paintComponent(Graphics g) {

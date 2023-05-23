@@ -16,11 +16,11 @@ public class Cuboid extends JFrame {
         super("Shapes Learning App - Cuboid Descriptions");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Create and set the layout for the shape description view
+        // Create and set the layout for the shape description views
         JPanel panel = new JPanel(new BorderLayout());
         getContentPane().add(panel);
 
-        // Create a top panel for the title
+        // Create a top panel for the title bar
         JPanel topPanel = new JPanel();
         topPanel.setBackground(Color.WHITE);
         panel.add(topPanel, BorderLayout.NORTH);
