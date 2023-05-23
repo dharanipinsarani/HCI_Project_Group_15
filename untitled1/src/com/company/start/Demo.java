@@ -25,7 +25,7 @@ public class Demo extends JFrame {
         JLabel characterLabel = new JLabel(new ImageIcon("E:\\untitled1\\src\\com\\company\\start\\welcome.jpg"));
         panel.add(characterLabel, BorderLayout.CENTER);
 
-        // Add the "Start" button in the center of the page
+        // Add the "Start" button in the center of the pages
         startButton = new JButton("Start Learning");
         startButton.setFont(new Font("Times New Roman", Font.BOLD, 24));
         startButton.setPreferredSize(new Dimension(250, 80));
