@@ -49,7 +49,7 @@ public class CircleGenerator extends JFrame {
 
         containerPanel.add(topPanel);
 
-        // Create input panel
+        // Create Input panel
         JPanel inputPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         JLabel radiusLabel = new JLabel("Radius(mm):");
         radiusLabel.setFont(new Font("Segoe UI Black", Font.BOLD, 50));
@@ -74,7 +74,7 @@ public class CircleGenerator extends JFrame {
 
         add(containerPanel, BorderLayout.NORTH);
 
-        // Create drawing panel
+        // Create Drawing panel
         drawingPanel = new JPanel() {
             @Override
             protected void paintComponent(Graphics g) {
@@ -112,7 +112,7 @@ public class CircleGenerator extends JFrame {
         };
         add(drawingPanel, BorderLayout.CENTER);
 
-        // Attach action listener to the generate button
+        // Attach Action listener to the generate button
         generateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

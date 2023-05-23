@@ -20,7 +20,7 @@ public class Cube extends JFrame {
         JPanel panel = new JPanel(new BorderLayout());
         getContentPane().add(panel);
 
-        // Create a top panel for the title
+        // Create a top panel for the titles
         JPanel topPanel = new JPanel();
         topPanel.setBackground(Color.WHITE);
         panel.add(topPanel, BorderLayout.NORTH);
