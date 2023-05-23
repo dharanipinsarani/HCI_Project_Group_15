@@ -103,7 +103,7 @@ public class LandingPage extends JFrame {
             JPanel cardPanel = (JPanel) e.getSource();
             String categoryName = ((JLabel) cardPanel.getComponent(0)).getText();
 
-            // Open the corresponding category page
+            // Open the corresponding category pages
             switch (categoryName) {
                 case "2D SHAPE":
                     MainMenu2D mainMenu2D = new MainMenu2D();
