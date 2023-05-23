@@ -25,7 +25,7 @@ public class CuboidGenerator extends JFrame {
         JPanel containerPanel = new JPanel();
         containerPanel.setLayout(new BoxLayout(containerPanel, BoxLayout.Y_AXIS));
 
-        // Create a top panel for the back button and topic
+        // Create a top panel for the back button and topics
         JPanel topPanel = new JPanel(new BorderLayout());
         topPanel.setBackground(Color.WHITE);
 
@@ -153,7 +153,7 @@ public class CuboidGenerator extends JFrame {
             }
         });
 
-        shapeColor = Color.RED; // Initial color
+        shapeColor = Color.RED; // Initial colors
 
         pack();
         setResizable(false);
