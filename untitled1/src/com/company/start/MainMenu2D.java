@@ -36,13 +36,7 @@ public class MainMenu2D extends JFrame {
         topicPanel.setBackground(Color.WHITE);
         topicPanel.setPreferredSize(new Dimension(getWidth(), 150));
 
-        JLabel topicLabel = new JLabel("Choose a Shape Category");
-        topicLabel.setFont(new Font("Segoe UI Black", Font.BOLD, 80));
-        topicLabel.setOpaque(true);
-        topicLabel.setBackground(Color.YELLOW); // Background color for the topic label
-        topicLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        topicPanel.add(topicLabel);
-        topPanel.add(topicPanel, BorderLayout.CENTER);
+       
 
 
         // Add the shape categories in a parallel card view
